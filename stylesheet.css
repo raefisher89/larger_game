@@ -1,0 +1,124 @@
+
+style { margin: 0px ;
+}
+
+
+element.style {
+    user-select: none;
+    cursor: zoom-in;
+}
+
+.box {
+  float: center;
+  width: 70px;
+  height: 40px;
+  margin: 1em;
+}
+
+.box2 {
+  display: inline-block;
+  width: 67.4px;
+  height: 45px;
+  margin: 0 auto;
+}
+
+.button {
+    background-color: rgb(109,196,62);
+    border: none;
+    color: white;
+    padding: 5px 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline;
+    font-size: 4px;
+}
+
+body{background-color: rgb(241,242,243);
+    max-width: 437;
+    max-height: 703;
+}
+p {font-size: 6px;}
+
+#first  {
+background: -moz-linear-gradient(left, rgba(0,0,0,0.50) 0%, rgba(0,0,0,0) 100%);
+background: -webkit-linear-gradient(left, rgba(0,0,0,0.50) 0%,rgba(0,0,0,0) 100%);
+background: linear-gradient(to right, rgba(0,0,0,0.50) 0%,rgba(0,0,0,0) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000',
+endColorstr='#00000000',GradientType=1 );
+  height: 170px;
+  width: 337px;
+  margin-left: auto;
+  margin-right: auto;
+  color: white;
+  font-family: sans-serif;
+  font-size: 12;
+  padding: 50px, 20px, 0px, 0px;
+  
+}
+
+
+#new_phones {
+  background-color: white;
+  height: 80px;
+  width: 337px;
+  margin-left: auto;
+  margin-right: auto;
+  display: inline-grid;
+
+}
+
+#mock_up{
+  background-color: white;
+  height: 90px;
+  width: 337px;
+  margin-left: auto;
+  margin-right: auto;
+  border-width: thin;
+  border-color: grey;
+  text-align: center;
+  color: rgb(170,173,175);
+  font-family: sans-serif;
+  font-size: 12px;
+  padding-top: 20px;
+
+}
+
+#photo_grid {
+  background-color: blue;
+  height: 90px;
+  width: 337px;
+  align: center;
+  margin-left: auto;
+  margin-right: auto;
+  border-width: 3px;
+  border-color: white;
+
+}
+
+#free_sample{
+  display: inline flex;
+  background-color: rgb(42,49,54);
+  height: 130px;
+  width: 337px;
+  align: center;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  color: rgb(170,173,175);
+  font-family: sans-serif;
+  padding-top: 40px;
+  font-size: 14px;
+}
+
+#whats_behind {
+  background-color: rgb(42,49,54);
+  height: 130px;
+  width: 337px;
+  align: left;
+  margin-left: auto;
+  margin-right: auto;
+  color: rgb(170,173,175);
+  font-family: sans-serif;
+  font-size: 8px;
+
+}
